@@ -1,0 +1,15 @@
+.success-true{
+    text-decoration: line-through;
+}
+
+
+.odd {
+  color: blue;
+}
+.even {
+  color: green;
+}
+
+.container-fluid {
+  background-color: #DCC115 !important;
+}

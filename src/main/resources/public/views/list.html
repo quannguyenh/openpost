@@ -1,0 +1,29 @@
+<h2>All Posts <a class="btn btn-primary pull-right" href="#/create"><i
+        class="icon-plus-sign icon-white"></i> New Post</a></h2>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Created On
+        </th>
+        <th>Done</th>
+    </tr>
+    <tr class="success-{{post.done}}" ng-repeat="post in posts" ng-class="$index % 2 == 0 && 'even' || 'odd'">
+        <td>{{$index+1}}</td>
+        <td>
+            {{post.title}}
+        </td>
+        <td>
+            {{post.createdOn |date:'medium'}}
+        </td>
+        <td>
+            <input type="checkbox" ng-change="postStatusChanged(post)" ng-value="post.done" ng-model="post.done">
+        </td>
+    </tr>
+</table>
