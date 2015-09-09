@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.todoapp.Bootstrap</mainClass>
+                  <mainClass>com.openpost.PostApp</mainClass>
                 </transformer>
               </transformers>
             </configuration>
