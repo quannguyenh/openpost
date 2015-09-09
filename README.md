@@ -5,11 +5,11 @@ The application is based on todoapp-spark https://github.com/shekhargulati/todoa
 
 Prerequisites
 To start with, this small webapp requires the following:
-- install Java8
+- Java8
 - SparkJava
 - Eclipse IDE
 - MongoDB
-- maven 3
+- Maven3
 
 Steps:
 - check out the source at github:
@@ -24,6 +24,6 @@ To run:
 - Run the PostApp main class
 - Then the server is accessible at http://localhost:8080/
 
-Feel free to play around with the configurations, drop me an email if interested
+Please drop me an email if interested
 
 
