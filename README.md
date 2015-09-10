@@ -11,15 +11,16 @@ To start with, this small webapp requires the following:
 - MongoDB
 - Maven3
 
-Steps:
+Getting started:
 - check out the source at github:
-git clone https://github.com/webscloud/openpost.git
+ git clone https://github.com/webscloud/openpost.git
+- go to the downloaded project:
+ cd openpost
 
-cd openpost
-
-To compile:
-- mvn clean package
-- For eclipse: mvn eclipse:eclipse
+To compile
+ mvn clean package
+- for eclipse development: 
+ mvn eclipse:eclipse
 
 To run:
 - Run the PostApp main class
