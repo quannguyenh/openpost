@@ -14,6 +14,7 @@ To start with, this small webapp requires the following:
 Steps:
 - check out the source at github:
 git clone https://github.com/webscloud/openpost.git
+
 cd openpost
 
 To compile:
